@@ -1,26 +1,101 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Yok-9M-7yk">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Vacation View Controller-->
+        <scene sceneID="9j2-Tf-YgV">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Yok-9M-7yk" customClass="VacationViewController" customModule="Vacation_360" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="p70-9A-sy7"/>
+                        <viewControllerLayoutGuide type="bottom" id="EmJ-SK-kmh"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="1aV-4s-ly8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vacation 360" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGi-cr-Bqv">
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="22"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Qb-RR-5ga" customClass="GVRPanoramaView">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kaD-jU-2EY" customClass="GVRVideoView">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click through Sindhu Beach, Grand Canyon, &amp; Underwater Photos" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="KtX-yf-ei9">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="rmc-ZK-I7F"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="15"/>
+                                <color key="textColor" red="0.3921568627" green="0.3921568627" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="rmc-ZK-I7F"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Play/Pause &quot;Living with Elephants&quot; Safari Video by Photos of Africa" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="8QQ-Vd-aU9">
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="15"/>
+                                <color key="textColor" red="0.3921568627" green="0.3921568627" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="kaD-jU-2EY" secondAttribute="trailing" id="1et-jl-lya"/>
+                            <constraint firstItem="kaD-jU-2EY" firstAttribute="height" secondItem="1aV-4s-ly8" secondAttribute="height" multiplier="0.5" id="7nP-Rl-ts4"/>
+                            <constraint firstItem="8QQ-Vd-aU9" firstAttribute="leading" secondItem="1aV-4s-ly8" secondAttribute="leadingMargin" id="8Oq-DF-Crm"/>
+                            <constraint firstItem="wGi-cr-Bqv" firstAttribute="top" secondItem="p70-9A-sy7" secondAttribute="bottom" constant="10" id="9zn-Wy-OMV"/>
+                            <constraint firstItem="wGi-cr-Bqv" firstAttribute="centerX" secondItem="1aV-4s-ly8" secondAttribute="centerX" id="CVy-Ct-7ef"/>
+                            <constraint firstItem="KtX-yf-ei9" firstAttribute="centerX" secondItem="5Qb-RR-5ga" secondAttribute="centerX" id="HDt-z4-1gN"/>
+                            <constraint firstItem="kaD-jU-2EY" firstAttribute="leading" secondItem="1aV-4s-ly8" secondAttribute="leading" id="IRX-wV-ZdL"/>
+                            <constraint firstItem="kaD-jU-2EY" firstAttribute="top" secondItem="5Qb-RR-5ga" secondAttribute="bottom" id="IX1-cu-N12"/>
+                            <constraint firstItem="KtX-yf-ei9" firstAttribute="leading" secondItem="1aV-4s-ly8" secondAttribute="leadingMargin" id="K0U-ix-sDg"/>
+                            <constraint firstItem="5Qb-RR-5ga" firstAttribute="height" secondItem="1aV-4s-ly8" secondAttribute="height" multiplier="0.5" id="K8d-VA-GSs"/>
+                            <constraint firstItem="kaD-jU-2EY" firstAttribute="top" secondItem="8QQ-Vd-aU9" secondAttribute="bottom" constant="5" id="MeS-In-R8w"/>
+                            <constraint firstItem="5Qb-RR-5ga" firstAttribute="top" secondItem="KtX-yf-ei9" secondAttribute="bottom" constant="5" id="TiC-Oc-5X9"/>
+                            <constraint firstItem="KtX-yf-ei9" firstAttribute="top" secondItem="wGi-cr-Bqv" secondAttribute="bottom" constant="30" id="TiC-Ze-dpT"/>
+                            <constraint firstItem="5Qb-RR-5ga" firstAttribute="height" secondItem="kaD-jU-2EY" secondAttribute="height" id="ZjQ-Yh-jet"/>
+                            <constraint firstItem="5Qb-RR-5ga" firstAttribute="leading" secondItem="1aV-4s-ly8" secondAttribute="leading" id="aZl-b5-Q6V"/>
+                            <constraint firstItem="KtX-yf-ei9" firstAttribute="top" secondItem="p70-9A-sy7" secondAttribute="bottom" constant="40" id="ahM-m8-xlo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8QQ-Vd-aU9" secondAttribute="trailing" id="gQE-ee-bRU"/>
+                            <constraint firstItem="EmJ-SK-kmh" firstAttribute="top" secondItem="kaD-jU-2EY" secondAttribute="bottom" id="iaJ-Pv-J9M"/>
+                            <constraint firstItem="8QQ-Vd-aU9" firstAttribute="top" secondItem="5Qb-RR-5ga" secondAttribute="bottom" constant="40" id="mDM-6x-lrp"/>
+                            <constraint firstAttribute="trailing" secondItem="5Qb-RR-5ga" secondAttribute="trailing" id="qJG-PV-pY7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KtX-yf-ei9" secondAttribute="trailing" id="vSY-1n-Dd3"/>
+                            <constraint firstItem="5Qb-RR-5ga" firstAttribute="top" secondItem="p70-9A-sy7" secondAttribute="bottom" constant="20" id="w7F-Gs-hIF"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="K8d-VA-GSs"/>
+                                <exclude reference="w7F-Gs-hIF"/>
+                                <exclude reference="HDt-z4-1gN"/>
+                                <exclude reference="ahM-m8-xlo"/>
+                                <exclude reference="7nP-Rl-ts4"/>
+                                <exclude reference="IX1-cu-N12"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="imageLabel" destination="KtX-yf-ei9" id="Qdp-fo-p3j"/>
+                        <outlet property="imageVRView" destination="5Qb-RR-5ga" id="kgX-Je-q9b"/>
+                        <outlet property="videoLabel" destination="8QQ-Vd-aU9" id="Wba-Cf-iDs"/>
+                        <outlet property="videoVRView" destination="kaD-jU-2EY" id="WGe-1Q-ey3"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tVe-Ne-9Na" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="268" y="296"/>
         </scene>
     </scenes>
 </document>

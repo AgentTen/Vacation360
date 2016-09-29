@@ -7,21 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13CACF0B14233FF3A4A7AF35 /* Pods_Vacation_360.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFAB9BB821F906D61B39CB2 /* Pods_Vacation_360.framework */; };
 		DF11428A1D9CD43B0091DB28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1142891D9CD43B0091DB28 /* AppDelegate.swift */; };
-		DF11428C1D9CD43B0091DB28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF11428B1D9CD43B0091DB28 /* ViewController.swift */; };
 		DF11428F1D9CD43B0091DB28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF11428D1D9CD43B0091DB28 /* Main.storyboard */; };
 		DF1142911D9CD43B0091DB28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1142901D9CD43B0091DB28 /* Assets.xcassets */; };
 		DF1142941D9CD43B0091DB28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1142921D9CD43B0091DB28 /* LaunchScreen.storyboard */; };
+		DF11429C1D9CD45A0091DB28 /* VacationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF11429B1D9CD45A0091DB28 /* VacationViewController.swift */; };
+		DF1142A11D9CD7980091DB28 /* grand_canyon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF11429E1D9CD7980091DB28 /* grand_canyon.jpg */; };
+		DF1142A21D9CD7980091DB28 /* sindhu_beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF11429F1D9CD7980091DB28 /* sindhu_beach.jpg */; };
+		DF1142A31D9CD7980091DB28 /* underwater.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF1142A01D9CD7980091DB28 /* underwater.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1BFAB9BB821F906D61B39CB2 /* Pods_Vacation_360.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vacation_360.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E1870B9FE1CA81CC4EAFC7 /* Pods-Vacation 360.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vacation 360.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vacation 360/Pods-Vacation 360.debug.xcconfig"; sourceTree = "<group>"; };
+		D5C765FBCC393A8B2BDCB82E /* Pods-Vacation 360.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vacation 360.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vacation 360/Pods-Vacation 360.release.xcconfig"; sourceTree = "<group>"; };
 		DF1142861D9CD43B0091DB28 /* Vacation 360.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vacation 360.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF1142891D9CD43B0091DB28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF11428B1D9CD43B0091DB28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DF11428E1D9CD43B0091DB28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF1142901D9CD43B0091DB28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF1142931D9CD43B0091DB28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF1142951D9CD43B0091DB28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF11429B1D9CD45A0091DB28 /* VacationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VacationViewController.swift; sourceTree = "<group>"; };
+		DF11429D1D9CD5D80091DB28 /* Vacation 360-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Vacation 360-Bridging-Header.h"; path = "Vacation 360/Vacation 360-Bridging-Header.h"; sourceTree = "<group>"; };
+		DF11429E1D9CD7980091DB28 /* grand_canyon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grand_canyon.jpg; sourceTree = "<group>"; };
+		DF11429F1D9CD7980091DB28 /* sindhu_beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sindhu_beach.jpg; sourceTree = "<group>"; };
+		DF1142A01D9CD7980091DB28 /* underwater.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = underwater.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +40,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13CACF0B14233FF3A4A7AF35 /* Pods_Vacation_360.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C01F7D1B107FA99F98898DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BFAB9BB821F906D61B39CB2 /* Pods_Vacation_360.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD3643FB08511B013DE89EA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89E1870B9FE1CA81CC4EAFC7 /* Pods-Vacation 360.debug.xcconfig */,
+				D5C765FBCC393A8B2BDCB82E /* Pods-Vacation 360.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DF11427D1D9CD43B0091DB28 = {
 			isa = PBXGroup;
 			children = (
+				DF11429D1D9CD5D80091DB28 /* Vacation 360-Bridging-Header.h */,
 				DF1142881D9CD43B0091DB28 /* Vacation 360 */,
 				DF1142871D9CD43B0091DB28 /* Products */,
+				DD3643FB08511B013DE89EA3 /* Pods */,
+				7C01F7D1B107FA99F98898DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,25 @@
 		DF1142881D9CD43B0091DB28 /* Vacation 360 */ = {
 			isa = PBXGroup;
 			children = (
+				DF1142A41D9CD7AB0091DB28 /* 360 Images */,
 				DF1142891D9CD43B0091DB28 /* AppDelegate.swift */,
-				DF11428B1D9CD43B0091DB28 /* ViewController.swift */,
-				DF11428D1D9CD43B0091DB28 /* Main.storyboard */,
 				DF1142901D9CD43B0091DB28 /* Assets.xcassets */,
-				DF1142921D9CD43B0091DB28 /* LaunchScreen.storyboard */,
 				DF1142951D9CD43B0091DB28 /* Info.plist */,
+				DF1142921D9CD43B0091DB28 /* LaunchScreen.storyboard */,
+				DF11428D1D9CD43B0091DB28 /* Main.storyboard */,
+				DF11429B1D9CD45A0091DB28 /* VacationViewController.swift */,
 			);
 			path = "Vacation 360";
+			sourceTree = "<group>";
+		};
+		DF1142A41D9CD7AB0091DB28 /* 360 Images */ = {
+			isa = PBXGroup;
+			children = (
+				DF11429E1D9CD7980091DB28 /* grand_canyon.jpg */,
+				DF11429F1D9CD7980091DB28 /* sindhu_beach.jpg */,
+				DF1142A01D9CD7980091DB28 /* underwater.jpg */,
+			);
+			name = "360 Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +114,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF1142981D9CD43B0091DB28 /* Build configuration list for PBXNativeTarget "Vacation 360" */;
 			buildPhases = (
+				77CC19C58523E36A22D3E760 /* [CP] Check Pods Manifest.lock */,
 				DF1142821D9CD43B0091DB28 /* Sources */,
 				DF1142831D9CD43B0091DB28 /* Frameworks */,
 				DF1142841D9CD43B0091DB28 /* Resources */,
+				21C82C17BD1C385D4CEC970D /* [CP] Embed Pods Frameworks */,
+				E5E8E41A165FF3B141EF49A1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,19 +172,70 @@
 			files = (
 				DF1142941D9CD43B0091DB28 /* LaunchScreen.storyboard in Resources */,
 				DF1142911D9CD43B0091DB28 /* Assets.xcassets in Resources */,
+				DF1142A31D9CD7980091DB28 /* underwater.jpg in Resources */,
+				DF1142A11D9CD7980091DB28 /* grand_canyon.jpg in Resources */,
+				DF1142A21D9CD7980091DB28 /* sindhu_beach.jpg in Resources */,
 				DF11428F1D9CD43B0091DB28 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21C82C17BD1C385D4CEC970D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vacation 360/Pods-Vacation 360-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77CC19C58523E36A22D3E760 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E5E8E41A165FF3B141EF49A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vacation 360/Pods-Vacation 360-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF1142821D9CD43B0091DB28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF11428C1D9CD43B0091DB28 /* ViewController.swift in Sources */,
 				DF11428A1D9CD43B0091DB28 /* AppDelegate.swift in Sources */,
+				DF11429C1D9CD45A0091DB28 /* VacationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +356,7 @@
 		};
 		DF1142991D9CD43B0091DB28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E1870B9FE1CA81CC4EAFC7 /* Pods-Vacation 360.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AG6SS3N7LD;
@@ -266,12 +364,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.perf.Vacation-360";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Vacation 360/Vacation 360-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		DF11429A1D9CD43B0091DB28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C765FBCC393A8B2BDCB82E /* Pods-Vacation 360.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AG6SS3N7LD;
@@ -279,6 +379,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.perf.Vacation-360";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Vacation 360/Vacation 360-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +403,7 @@
 				DF11429A1D9CD43B0091DB28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
